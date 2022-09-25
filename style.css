@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("snake.jpg");
+    background-repeat:round;
+    overflow-y: hidden;
+}
+
+
+canvas{
+    box-shadow: 20px 10px 50px black;
+    margin:10px;
+
+}
+#resetButton{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 150px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+  
+}
